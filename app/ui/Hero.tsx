@@ -10,9 +10,9 @@ export default function Hero() {
         </h1>
         <p className={`${GeistMono.className}`}>
           I am a{" "}
-          <span className="bg-[#F6FF92] text-black px-[2px]">student</span> and
+          <span className="bg-[#F6FF92] text-black px-[3px]">student</span> and
           a dedicated Web Developer. I work as a{" "}
-          <span className="bg-[#F6FF92] text-black px-[2px]">
+          <span className="bg-[#F6FF92] text-black px-[3px]">
             Frontend Engineer
           </span>{" "}
           at{" "}
@@ -24,7 +24,7 @@ export default function Hero() {
             WNE3
           </a>
           . My area of expertise lies in crafting{" "}
-          <span className="bg-[#F6FF92] text-black px-[2px]">
+          <span className="bg-[#F6FF92] text-black px-[3px]">
             modern and minimalist
           </span>{" "}
           user interfaces.
