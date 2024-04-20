@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Navbar from "./ui/Navbar";
+import Footer from "./ui/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body className="bg-[#141414] antialiased">
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

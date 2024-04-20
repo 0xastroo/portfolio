@@ -31,8 +31,7 @@ export default function Services() {
         </div>
         <div className="flex flex-col justify-between bg-[rgba(0,0,0,.2)] h-52 p-6 rounded-lg">
           <h1 className={`${GeistSans.className} text-xl`}>
-            I WILL DESIGN A GOOD LOOKING, FRIENDLY USER INTERFACE FOR YOUR
-            WEBSITE
+            I WILL DESIGN AN EYE CATCHING USER-INTERFACE
           </h1>
           <div className="flex justify-between items-center">
             <p className={`${GeistSans.className} font-semibold`}>WEB DESIGN</p>
