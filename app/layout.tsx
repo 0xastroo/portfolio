@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Navbar from "./ui/Navbar";
 import Footer from "./ui/Footer";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   title: "0xastroo - Portfolio",
@@ -19,6 +20,7 @@ export default function RootLayout({
       <body className="bg-[#141414] antialiased">
         <Navbar />
         {children}
+        <Analytics />
         <Footer />
       </body>
     </html>
