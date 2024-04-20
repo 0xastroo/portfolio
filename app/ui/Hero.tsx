@@ -29,10 +29,6 @@ export default function Hero() {
           </span>{" "}
           user interfaces.
         </p>
-        <p className={`${GeistSans.className}`}>
-          <span className="font-semibold">Currently Listening</span>:{" "}
-          {"We Still Don't Trust You - Metro Boomin, Future"}
-        </p>
       </div>
     </main>
   );
