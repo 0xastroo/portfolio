@@ -1,5 +1,6 @@
 import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
+import Link from "next/link";
 
 export default function Services() {
   return (
@@ -44,7 +45,7 @@ export default function Services() {
         </div>
         <div className="bg-[rgba(0,0,0,.2)] h-52 p-6 rounded-lg">
           <h1 className={`${GeistSans.className} text-3xl`}>
-            <span className="underline text-[#00B068]">CONNECT</span> WITH ME TO
+            <Link href="/contact" className="underline text-[#00B068]">CONNECT</Link> WITH ME TO
             DISCUSS FURTHER
           </h1>
         </div>

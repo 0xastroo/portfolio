@@ -4,14 +4,14 @@ import { GeistSans } from "geist/font/sans";
 export default function Page() {
   return (
     <main className="max-w-[80%] mx-auto">
-      <div className="flex h-[80vh] items-center justify-center">
+      <div className="flex h-[75vh] items-center justify-center">
         <form action="">
           <div className="flex flex-col gap-3">
-            <h1 className={`${GeistSans.className} text-4xl font-semibold`}>
+            <h1 className={`${GeistSans.className} text-4xl font-extrabold`}>
               Hello,
             </h1>
             <div className="flex flex-col gap-1">
-              <h3 className={`${GeistSans.className} text-2xl font-semibold`}>
+              <h3 className={`${GeistSans.className} text-2xl font-medium`}>
                 My{" "}
                 <label htmlFor="name" className="text-[#00B068] px-[3px]">
                   name
@@ -25,7 +25,7 @@ export default function Page() {
               />
             </div>
             <div className="flex flex-col gap-1">
-              <h3 className={`${GeistSans.className} text-2xl font-semibold`}>
+              <h3 className={`${GeistSans.className} text-2xl font-medium`}>
                 I need{" "}
                 <label htmlFor="help" className="text-[#00B068] px-[3px]">
                   help
