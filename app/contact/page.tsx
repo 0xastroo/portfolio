@@ -21,7 +21,7 @@ export default function Page() {
               <input
                 type="text"
                 id="name"
-                className={`${GeistSans.className} w-full text-2xl rounded-lg text-[#F6FF92] bg-[#171717] border border-white outline-none px-3 py-[6px] font-medium`}
+                className={`${GeistSans.className} w-full text-xl rounded-lg text-[#F6FF92] bg-[#171717] border border-white outline-none px-3 py-[6px] font-medium`}
               />
             </div>
             <div className="flex flex-col gap-1">
@@ -35,7 +35,7 @@ export default function Page() {
               <input
                 type="text"
                 id="help"
-                className={`${GeistSans.className} w-full text-2xl rounded-lg text-[#F6FF92] bg-[#171717] border border-white outline-none px-3 py-[6px] font-medium`}
+                className={`${GeistSans.className} w-full text-xl rounded-lg text-[#F6FF92] bg-[#171717] border border-white outline-none px-3 py-[6px] font-medium`}
               />
             </div>
             <div className="flex flex-col gap-1">
@@ -49,7 +49,7 @@ export default function Page() {
               <input
                 type="email"
                 id="email"
-                className={`${GeistSans.className} w-full text-2xl rounded-lg text-[#F6FF92] bg-[#171717] border border-white outline-none px-3 py-[6px] font-medium`}
+                className={`${GeistSans.className} w-full text-xl rounded-lg text-[#F6FF92] bg-[#171717] border border-white outline-none px-3 py-[6px] font-medium`}
               />
             </div>
             <button className="mt-6">

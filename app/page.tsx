@@ -1,10 +1,9 @@
 import Hero from "./ui/Hero";
 import Experience from "./ui/Experience";
 import Services from "./ui/Services";
-// import localFont from "next/font/local"
 import local from "next/font/local";
 
-const utara  = local(
+const utara = local(
   {
     src: [
       {
