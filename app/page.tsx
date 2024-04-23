@@ -21,7 +21,7 @@ export default function Home() {
       <Experience />
       <Services />
       <section className="max-w-[80%] mx-auto py-6">
-        <h1 className={`${utara.className} text-center text-4xl`}>
+        <h1 className={`${utara.className} text-center text-5xl`}>
           Heart-Crafted By <span className="text-[#00B068]">0xastroo</span>
         </h1>
       </section>

@@ -5,13 +5,13 @@ export default function Hero() {
   return (
     <main className="max-w-[80%] mx-auto py-16">
       <div className="flex flex-col gap-6">
-        <h1 className={`${GeistSans.className} text-2xl font-bold`}>
+        <h1 className={`${GeistSans.className} text-2xl font-bold md:text-4xl`}>
           Hello, I'm Advait
         </h1>
-        <p className={`${GeistMono.className}`}>
+        <p className={`${GeistMono.className} `}>
           I am a{" "}
           <span className="bg-[#F6FF92] text-black px-[3px]">student</span> and
-          a dedicated Web Developer. I work as a{" "}
+          a self-taught Developer. I work as a{" "}
           <span className="bg-[#F6FF92] text-black px-[3px]">
             Frontend Engineer
           </span>{" "}

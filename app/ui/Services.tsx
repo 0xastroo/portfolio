@@ -5,13 +5,13 @@ import Link from "next/link";
 export default function Services() {
   return (
     <section className="flex flex-col gap-6 max-w-[80%] mx-auto py-10">
-      <h1 className={`${GeistSans.className} text-white font-bold text-3xl`}>
+      <h1 className={`${GeistSans.className} text-white font-bold text-4xl`}>
         SERVICES
       </h1>
 
-      <div className="grid gap-4">
+      <div className="grid md:grid-cols-2 gap-4">
         <div className="bg-[rgba(0,0,0,.2)] h-52 p-6 rounded-lg">
-          <h1 className={`${GeistSans.className} text-3xl`}>
+          <h1 className={`${GeistSans.className} text-2xl`}>
             I AM <span className="underline text-[#00B068]">OPEN TO WORK!</span>
           </h1>
         </div>
@@ -44,7 +44,7 @@ export default function Services() {
           </div>
         </div>
         <div className="bg-[rgba(0,0,0,.2)] h-52 p-6 rounded-lg">
-          <h1 className={`${GeistSans.className} text-3xl`}>
+          <h1 className={`${GeistSans.className} text-2xl`}>
             <Link href="/contact" className="underline text-[#00B068]">CONNECT</Link> WITH ME TO
             DISCUSS FURTHER
           </h1>

@@ -6,18 +6,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import local from "next/font/local";
-
-const utara = local(
-  {
-    src: [
-      {
-        path: "../../public/fonts/Utara-Medium.ttf",
-        weight: "600"
-      }
-    ]
-  }
-)
 
 const variants = {
   open: { opacity: 1, x: 0 },
@@ -42,13 +30,14 @@ export default function Navbar() {
         </Link>
       </div>
 
-      <Image
-        onClick={() => setIsOpen(true)}
-        src="/hamburger.svg"
-        width={40}
-        height={13}
-        alt="open-nav"
-      />
+      <Link href="#" onClick={() => setIsOpen(true)}>
+        <Image
+          src="/hamburger.svg"
+          width={40}
+          height={13}
+          alt="open-nav"
+        />
+      </Link>
       <motion.nav
         className={`fixed top-0 right-0 h-screen bg-black w-full`}
         animate={isOpen ? "open" : "closed"}

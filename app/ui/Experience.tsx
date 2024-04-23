@@ -47,11 +47,11 @@ function ExperinceItem(props: Experience) {
         {props.tenure}
       </p>
       {props.description.length == 1 ? (
-        <p className={`${GeistMono.className} text-black pt-4 text-sm`}>
+        <p className={`${GeistMono.className} text-black pt-4`}>
           {props.description}
         </p>
       ) : (
-        <ol className="pt-4 text-sm flex flex-col gap-2">
+        <ol className="pt-4 flex flex-col gap-2">
           {props.description.map((desc) => (
             <li
               className={`${GeistMono.className} text-black list-decimal`}
@@ -70,7 +70,7 @@ export default function Experience() {
   return (
     <section className="bg-[#F6FF92] py-10">
       <div className="flex flex-col items-center gap-6 max-w-[80%] mx-auto">
-        <h1 className={`${GeistSans.className} text-black font-bold text-3xl`}>
+        <h1 className={`${GeistSans.className} text-black font-bold text-4xl`}>
           WORK EXPERIENCE
         </h1>
         <div className="flex flex-col items-center gap-8">

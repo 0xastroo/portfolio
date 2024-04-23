@@ -8,10 +8,7 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        sans: ["var(--font-geist-mono)"],
-        display: ["var(--font-geist-sans)"],
-      },
+      
     },
   },
   plugins: [],
