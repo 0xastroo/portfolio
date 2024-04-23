@@ -16,7 +16,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="flex justify-between items-center py-4 px-8 bg-black">
+    <header className="flex justify-between items-center py-4 px-8 bg-black md:px-20">
       <div>
         <Link className="flex flex-col -gap-0.5" href="/">
           <h1 className={`${GeistSans.className} text-lg font-semibold `}>

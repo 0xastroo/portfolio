@@ -34,18 +34,20 @@ const experiences = [
 
 function ExperinceItem(props: Experience) {
   return (
-    <div className="flex flex-col items-center gap-2">
-      <h1 className={`${GeistSans.className} text-black font-bold text-2xl`}>
-        {props.company}
-      </h1>
-      <p className={`${GeistMono.className} text-black text-sm`}>
-        {props.position}
-      </p>
-      <p
-        className={`${GeistMono.className} bg-black text-white text-xs py-1 px-4 rounded-full`}
-      >
-        {props.tenure}
-      </p>
+    <div className="flex flex-col items-center gap-2 xl:grid xl:grid-cols-2 xl:gap-0">
+      <div className=" flex flex-col items-center gap-2">
+        <h1 className={`${GeistSans.className} text-black font-bold text-3xl`}>
+          {props.company}
+        </h1>
+        <p className={`${GeistMono.className} text-black text-sm`}>
+          {props.position}
+        </p>
+        <p
+          className={`${GeistMono.className} bg-black text-white text-xs py-1 px-4 rounded-full`}
+        >
+          {props.tenure}
+        </p>
+      </div>
       {props.description.length == 1 ? (
         <p className={`${GeistMono.className} text-black pt-4`}>
           {props.description}

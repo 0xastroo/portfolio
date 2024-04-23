@@ -7,11 +7,11 @@ export default function Footer() {
     <footer className="pb-5">
       <div className="border-t-2 border-b-2">
         <div className="flex flex-col items-center gap-4 max-w-[80%] mx-auto py-6 md:flex-row md:justify-between">
-          <p className={`${GeistSans.className} text-center`}>
+          <p className={`${GeistSans.className} text-center xl:text-xl`}>
             GOT A GREAT IDEA BUT NEED HELP BUILDING IT?
           </p>
           <Link
-            className={`${GeistSans.className} bg-[#00B068] px-3 py-1 rounded-md text-sm font-semibold`}
+            className={`${GeistSans.className} bg-[#00B068] px-3 py-1 rounded-md text-sm font-semibold xl:text-lg`}
             href="/contact"
           >
             GET IN TOUCH
